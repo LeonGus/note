@@ -21,7 +21,6 @@
   "homepage": "https://github.com/LeonGus/note#readme",
   "devDependencies": {
     "markdown-it-disable-url-encode": "^1.0.1",
-    "vuepress": "^1.8.0",
-    "vuepress-plugin-auto-sidebar": "^1.5.0"
+    "vuepress": "^1.8.0"
   }
 }

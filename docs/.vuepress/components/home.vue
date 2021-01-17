@@ -23,7 +23,7 @@ p {
 
 /* structure */
 .container {
-  max-width: 720px;
+  /* max-width: 720px; */
   padding: 20px 40px 0;
   margin: 0 auto;
   background: #fff;
