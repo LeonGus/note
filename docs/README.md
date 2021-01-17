@@ -1,9 +1,13 @@
-<!--
- * @Author: Leon
- * @Date: 2021-01-17 13:42:37
- * @version: 0.0.1
- * @Descripttion: 这是注释
- * @LastEditors: Leon
- * @LastEditTime: 2021-01-17 13:51:39
--->
-# Hello World
+---
+navbar: false
+layout: home
+pageClass: home-page-class
+logo: 'logo.jpg'
+title: leon's Note
+describe: Live and Study.
+notes: [{
+  name: 'webpack',
+  href: '/webpack/',
+  logo: '/img/js.svg'
+},]
+---
