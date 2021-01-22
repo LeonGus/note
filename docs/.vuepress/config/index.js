@@ -4,7 +4,7 @@
  * @version: 0.0.1
  * @Descripttion: 这是注释
  * @LastEditors: Leon
- * @LastEditTime: 2021-01-17 22:33:25
+ * @LastEditTime: 2021-01-22 14:49:13
  */
 const ph = require('path')
 const fs = require('fs')
@@ -41,6 +41,5 @@ exports.getSideBar =  function (folder) {
         _temp.push(_name)
     }
     console.log(_temp)
-    file_list.unshift('')
     return _temp
   }

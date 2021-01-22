@@ -1,52 +1,4 @@
-# webpack从入门到进阶
-
-# 第1章 课程介绍
-
-## 学什么
-
-- [webpack官网](https://www.webpackjs.com)
-
-> 本质上，*webpack* 是一个现代 JavaScript 应用程序的*静态模块打包器(module bundler)*。当 webpack 处理应用程序时，它会递归地构建一个*依赖关系图(dependency graph)*，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个 *bundle*。
-
-![1556458624028](./assets/webpack.png)
-
-- 代码转译
-- 模块合并
-- 混淆压缩
-- 代码分割
-- 自动刷新
-- 代码校验
-- 自动部署
-
-## 课程安排
-
-- webpack基础配置
-- webpack高级配置
-- webpack性能优化
-- tapable钩子
-- AST抽象语法树的应用
-- webpack原理分析, 手写webpack
-- 手写常见的loader和plugin
-
-## 学习前提
-
-- JS基础
-- ES6 / ES7 语法
-- node基础
-- npm的基本使用
-
-## 课程目标
-
-- 掌握webpack的安装
-- 掌握webpack的基础配置
-- 掌握loader的配置
-- 掌握plugin的配置
-- 了解webpack性能优化
-- 了解webpack中的tapable
-- 了解AST的应用
-- 深入学习webpack原理，手写webpack
-
-# 第2章 webpack基础
+# webpack基础
 
 ## webpack的安装
 
@@ -547,7 +499,7 @@ url-loader封装了file-loader, 所以使用url-loader时需要安装file-loader
       ```
 
 
-# 第3章 webpack高级配置
+# webpack高级配置
 
 ## HTML中img标签的图片资源处理
 
@@ -764,7 +716,7 @@ if (module.hot) {
 }
 ```
 
-# 第4章 webpack优化
+# webpack优化
 
 ## production模式打包自带优化
 
@@ -1452,7 +1404,7 @@ function getComponent() {
 
 
 
-# 第5章 webpack原理
+# webpack原理
 
 ## 学习目标
 
@@ -1893,7 +1845,7 @@ exports.MultiHook = require("./MultiHook");
 
 ![1561895540321](./assets/1561895540321.png)
 
-# 第6章 课程总结
+# 总结
 
 - webpack基础配置
   - 安装：本地安装即可，无需全局安装
@@ -1932,5 +1884,3 @@ exports.MultiHook = require("./MultiHook");
   - 手写loader并给自己的webpack添加loader功能
   - webpack中tapable的应用
   - 手写plugin并给自己的webpack添加plugin功能
-
-学习不是百米冲刺，而是一场马拉松，现在所学只是起点，更多的是需要大家找到学习方法，不断的学习提升自己，一起加油！
