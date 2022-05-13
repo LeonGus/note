@@ -21,6 +21,7 @@
   "homepage": "https://github.com/LeonGus/note#readme",
   "devDependencies": {
     "markdown-it-disable-url-encode": "^1.0.1",
+    "pinyin-pro": "^3.10.0",
     "vuepress": "^1.8.0"
   }
 }

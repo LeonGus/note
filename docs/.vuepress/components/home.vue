@@ -173,7 +173,7 @@ p {
       </div>
       <div class="ngroup">
         <template v-for="note in frontmatter.notes">
-          <a class="note" :href="note.href">
+          <a class="note" :href="note.href" :key="note.href">
             <div class="logo">
               <img class="icon-logo" :src="$withBase(note.logo)" />
             </div>
@@ -189,6 +189,8 @@ p {
 </template> 
 
 <script>
+// const {getNav} = require('../config/index')
+// console.log(getNav())
 export default {
   computed: {
     frontmatter() {

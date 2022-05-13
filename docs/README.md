@@ -7,7 +7,7 @@ title: leon's Note
 describe: Live and Study.
 notes: [{
   name: 'webpack',
-  href: '/note/webpack/',
+  href: '/note/pages/webpack/',
   logo: '/img/js.svg'
 },]
 ---

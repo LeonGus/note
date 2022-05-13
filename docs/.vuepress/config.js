@@ -6,7 +6,8 @@
  * @LastEditors: Leon
  * @LastEditTime: 2021-01-17 22:30:04
  */
-const { getSideBar } = require('./config/index.js')
+const { sideBar, navs } = require('./config/index.js')
+// console.log(getSideBar('webpack'));
 module.exports = {
   title: `leon's Note`,
   description: '笔记',
@@ -15,13 +16,8 @@ module.exports = {
     ['link', { rel: 'icon', href: '/logo.jpg' }]
   ],
   themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'webpack', link: '/webpack/' },
-    ],
-    sidebar: {
-      '/webpack/': getSideBar('webpack'),
-    },
+    nav: navs,
+    sidebar: sideBar,
     lastUpdated: '更新于'
   },
   plugins: ['@vuepress/last-updated'],
